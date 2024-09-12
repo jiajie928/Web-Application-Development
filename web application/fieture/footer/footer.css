@@ -1,0 +1,88 @@
+/*================== footer =================*/
+
+
+/* remove all unordered list*/
+
+.main ul li{
+	list-style-type: none;
+}
+
+.main a{
+	color: #f6960e;
+	text-decoration: none;
+	padding: 7px 25px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  	transition: 0.5s ease-in-out;
+}
+
+.main a:hover{
+	background-color: #f6960e;
+	color: whitesmoke;
+}
+
+#CopyrightBottomHeader{
+
+	background: #474546;
+	overflow: hidden;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	overflow-x: auto;
+	height: 90px;
+}
+
+#CopyrightBottomHeader p{
+
+	color: white;
+	text-align: left;
+	margin: 20px;
+	padding: 20px;
+  	font-weight: bold;
+  	font-size: 15px;
+  	font-style: italic;
+  	letter-spacing: 0.5px;
+  	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  	
+
+}
+
+#bottomNavBar{
+	background: #474546;
+	overflow: hidden;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	overflow-x: auto;
+	height: 70px;
+}
+
+#bot-left-nav{
+	float: left;
+}
+
+#bot-left-nav li{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#bottomSocialMedia{
+	background: #474546;
+	overflow: hidden;
+	bottom: 0;
+	display: flex;
+	overflow-x: auto;
+	height: 80px;
+	padding-left: 50px;
+}
+
+#bot-left-social{
+	float: left;
+}
+
+#bot-left-social li{
+	display: inline-block;
+	margin: 0 auto; /* Center the DIV horizontally */
+	letter-spacing: 10px;
+}

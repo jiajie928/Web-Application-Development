@@ -1,0 +1,143 @@
+header
+{
+position: sticky;
+top: 0%;
+width: 100%;
+z-index: 9999;
+padding-top: 0%;
+} 
+.navbar {
+height: 120px;
+width: 100%;
+background-color: rgb(251,232,218);
+z-index: 9; 
+justify-content: space-between;
+display: flex;
+}
+
+.navbar-right
+{
+padding-top: 35px;
+}
+
+.navbar-right a 
+{
+border-radius: 10px;
+font-weight: bold;
+font-style: italic;
+font-size: 20px;
+float: left;
+display: block;
+color: black;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+}
+
+.navbar-right a:hover
+{
+cursor: pointer;
+background: rgb(255, 132, 198);
+color: white;
+}
+
+.navbar-left
+{
+width: 200px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+/* box-shadow: 18px  18px 30px rgba(0, 0, 0, 0.2),
+            -18px -18px 30px rgba(255,255,255,1); */
+transition: all 0.2s ease-out;
+
+}
+
+#logo
+{
+width: 200px;
+height: 100px;
+border-radius: 20px;
+transition: all .2s ease-out;
+}
+
+#logo:hover
+{
+cursor: pointer;
+/* box-shadow: 0 0 0 rgba(0, 0, 0, 0.2),
+            0 0 0 rgba(242, 226, 211, 255),
+inset 18px 18px 30px rgba(0, 0, 0, 0.1),
+inset -18px -18px 30px rgba(242 226, 211, 255); */
+}
+
+#logo:hover 
+{
+width: 180px;
+}
+.top-search
+{
+height:100px;
+justify-content: right;
+background-color: #474546
+}
+.search-container
+{
+float: right;
+padding: 25px 28px;
+margin-right: 0px;
+}
+.search-container input
+{
+height: 20px;
+width: 250px;
+border: solid 2px #000;
+font-family: 'Times New Roman';
+font-size: 16px;
+background: transparent;
+border: 1px solid #ff7200;
+
+color: #fff;
+border-right: none;
+padding: 10px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+.search-container button
+{
+float: right;
+background: #ff7200;
+font-size: 31.3px;
+border: none;
+cursor: pointer;
+
+border: 2px solid #ff7200;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+transition: 0.5s ease-in-out;
+}
+
+.search-container button:hover 
+{
+background: #ccc;
+}
+#right-nav
+{
+    display: flex;
+}
+#right-nav li
+{
+    display: inline-block;
+    margin: 0;
+    font-size: 18px;
+    list-style-type: none;
+    padding-top: 30px;
+}
+#right-nav a
+{
+    color: #f6960e;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
